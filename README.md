@@ -33,17 +33,5 @@ A modern, responsive game dashboard built with **Next.js**, optimized for perfor
 
 
 ---
-## 🔐 Environment Variables
 
-Create a file named `.env` in the root of your project and add the following:
-
-```env
-# MongoDB connection string
-MONGODB_URI=mongodb+srv://<username>:<password>@<cluster-url>/game-dashboard?retryWrites=true&w=majority
-
-# Secret key for JWT auth
-JWT_SECRET=your_super_secret_key
-
-# Environment type
-NODE_ENV=development
 
